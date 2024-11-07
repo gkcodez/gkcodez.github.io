@@ -24,9 +24,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={roboto.className}>
         <Providers>
+          <div className="absolute top-5 right-5">
+            <ThemeSwitcher />
+          </div>
           <div className="flex min-h-screen flex-col items-center justify-start px-5 py-10">
-          <ThemeSwitcher />
-
             <h1 className="text-3xl md:text-5xl font-bold p-2 font-poppins">Gopalakrishnan</h1>
             <h3 className="text-lg text-gray-500">Web Developer & Bug Bounty Hunter</h3>
             <div className="social flex justify-center align-middle mt-3">
