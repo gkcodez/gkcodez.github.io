@@ -7,8 +7,8 @@ import ThemeSwitcher from './components/ThemeSwitcher'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 import Link from 'next/link'
 
-const roboto = Roboto({ subsets: ['latin'], weight: ['100', '300', '500', '700', '900'], variable: '--font-roboto' })
 const poppins = Poppins({ subsets: ['latin'], weight: ['100', '300', '500', '700', '900'], variable: '--font-poppins' })
+const roboto = Roboto({ subsets: ['latin'], weight: ['100', '300', '500', '700', '900'], variable: '--font-roboto' })
 
 export const metadata: Metadata = {
   title: 'Gopalakrishnan (gkcodez)',
@@ -22,13 +22,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={roboto.className}>
+      <body className={`${poppins.variable } py-10 flex items-center justify-center`}>
         <Providers>
           <div className="absolute top-5 right-5">
             <ThemeSwitcher />
           </div>
-          <div className="flex min-h-screen flex-col items-center justify-start py-10">
-            <h1 className="text-3xl md:text-5xl font-bold p-2">Gopalakrishnan</h1>
+          <div className="flex min-h-screen flex-col items-center justify-start font-poppins max-w-5xl">
+            <h1 className="font-bold text-3xl md:text-5xl p-2">Gopalakrishnan</h1>
             <h3 className="text-lg text-gray-500">Web Developer & Bug Bounty Hunter</h3>
             <div className="social flex justify-center align-middle mt-3">
               <a href="https://www.github.com/gkcodez" target="_blank"><IoLogoGithub className="text-6xl p-2" /></a>

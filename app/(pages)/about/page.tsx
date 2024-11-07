@@ -4,10 +4,13 @@ import { IoLogoPython } from "react-icons/io";
 import { PiHandWavingFill } from "react-icons/pi";
 
 export default function About() {
-    return <div id="about-section" className="max-h-screen flex-col items-center gap-3 text-center">
+    return <div id="about-section" className="max-h-screen flex-col items-center gap-3">
         <div className="py-3">
-        <h3 className="flex text-6xl text-sky-700"><PiHandWavingFill />Hi!</h3>
-        <p className="mt-1">I&apos;m Gopalakrishnan (@gkcodez), Software engineer with a decade of experience in testing and developing enterprise applications.</p>
+        <h3 className="flex items-center justify-start text-white p-5 bg-gray-700 w-full rounded-lg">
+            <p className="mr-2">[<span className="text-green-500">gkcodez</span>@github.com]</p> 
+            <p className="w-full font-semibold">echo "Hello!"</p>
+        </h3>
+        <p className="mt-2">I&apos;m Gopalakrishnan (@gkcodez), Software engineer with a decade of experience in testing and developing enterprise applications.</p>
         </div>
 
         <h3 className=" text-2xl py-3 font-bold">More about me:</h3>
