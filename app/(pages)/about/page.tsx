@@ -8,7 +8,7 @@ export default function About() {
         <div className="py-3">
         <h3 className="flex items-center justify-start text-white p-5 bg-gray-700 w-full rounded-lg">
             <p className="mr-2">[<span className="text-green-500">gkcodez</span>@github.com]</p> 
-            <p className="w-full font-semibold">echo "Hello!"</p>
+            <p className="w-full font-semibold">echo &quot;Hello!&quot;</p>
         </h3>
         <p className="mt-2">I&apos;m Gopalakrishnan (@gkcodez), Software engineer with a decade of experience in testing and developing enterprise applications.</p>
         </div>
