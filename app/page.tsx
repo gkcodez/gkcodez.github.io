@@ -15,6 +15,15 @@ export default function Home() {
         <button className="nav-button p-2 mr-1">Projects</button>
         <button className="nav-button p-2 mr-1">Contact</button>
       </nav>
+
+      <div id="about-section" className="text-lg mt-2">
+      <p className="mt-2">I'm <span className="bg-gray-600 p-3 rounded-md">&gt; Gopalakrishnan / GK</span>, Software engineer with a decade of experience in testing and developing enterprise applications.</p>
+      <p className="mt-2"><span className="text-3xl">⚙️</span> I like automating everything around. Am I being smart? Nah! just too lazy to repeat things!</p>
+      <p className="mt-2"><span className="text-3xl">🥰</span> Fell in love with hacking. Please don't ask me to hack facebook accounts though!</p>
+      <p className="mt-2"><span className="text-3xl">😎</span> Passion for developing software. At times, I switch my developer mode ON!</p>
+      <p className="mt-2"><span className="text-3xl">👌</span> Python makes my life easier, unlike the one in the wild!</p>
+      <p className="mt-2"><span className="text-3xl">😍</span> Vue and React makes it beautiful, Angular, I'm sorry!</p>
+      </div>
     </main>
   )
 }
