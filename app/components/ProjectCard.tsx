@@ -18,14 +18,14 @@ export default function ProjectCard(props: any) {
           className="rounded-xl my-2 w-full h-auto"
         />
         <h2 className="text-xl my-1 text-sky-600">{props.title}</h2>
-        <p className="font-normal my-1">{props.description}</p>
+        <p className="font-light my-1">{props.description}</p>
         {
           tags &&
           <div className="flex flex-wrap gap-2 my-2">
             {
               tags.map((tag: any, index: number) => {
                 return (
-                  <p key={index} className="p-2 bg-gray-300 rounded-full text-sm">{tag}</p>
+                  <p key={index} className="p-2 bg-gray-200 dark:bg-gray-600 rounded-full text-sm font-light">{tag}</p>
                 )
               })
             }
@@ -36,7 +36,7 @@ export default function ProjectCard(props: any) {
         <hr />
         <div className="buttons flex flex-wrap items-center justify-start gap-3 mt-3">
           {props.codesrc &&
-            <a href={props.codesrc} target="_blank" className="p-3 border-2 border-gray-500 text-gray-500 rounded-lg">View Code</a>
+            <a href={props.codesrc} target="_blank" className="p-3 border-2 border-gray-600 text-gray-600 dark:border-gray-200 dark:text-gray-200 rounded-lg">View Code</a>
           }
           {
             props.demosrc &&
