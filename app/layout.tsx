@@ -28,12 +28,12 @@ export default function RootLayout({
             <ThemeSwitcher />
           </div>
           <div className="flex min-h-screen flex-col items-center justify-start font-poppins max-w-5xl">
-            <h1 className="font-bold text-3xl md:text-5xl p-2">Gopalakrishnan</h1>
+            <h1 className="font-bold text-3xl md:text-3xl p-2">Gopalakrishnan</h1>
             <h3 className="text-lg text-gray-500">Web Developer & Bug Bounty Hunter</h3>
             <div className="social flex justify-center align-middle mt-3">
-              <a href="https://www.github.com/gkcodez" target="_blank"><IoLogoGithub className="text-6xl p-2" /></a>
-              <a href="https://www.linkedin.com/in/gkcodez" target="_blank"><IoLogoLinkedin className="text-sky-700 text-6xl p-2" /></a>
-              <a href="mailto:gopalakrishnan.work@gmail.com" target="_blank"><IoMail className="text-amber-700 text-6xl p-2" /></a>
+              <a href="https://www.github.com/gkcodez" target="_blank"><IoLogoGithub className="text-gray-600 text-6xl p-2" /></a>
+              <a href="https://www.linkedin.com/in/gkcodez" target="_blank"><IoLogoLinkedin className="text-sky-600 text-6xl p-2" /></a>
+              <a href="mailto:gopalakrishnan.work@gmail.com" target="_blank"><IoMail className="text-amber-600 text-6xl p-2" /></a>
             </div>
             <nav className="my-5 flex items-center justify-center w-full">
               <Link href="project" className="text-xl px-2 mr-2 border-r-2 border-gray-200">Projects</Link>

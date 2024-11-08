@@ -25,7 +25,7 @@ export default function ProjectCard(props: any) {
             {
               tags.map((tag: any, index: number) => {
                 return (
-                  <p key={index} className="p-2 bg-gray-200 dark:bg-gray-600 rounded-full text-sm font-light">{tag}</p>
+                  <p key={index} className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full text-sm font-light">{tag}</p>
                 )
               })
             }
@@ -33,8 +33,8 @@ export default function ProjectCard(props: any) {
         }
       </div>
       <div>
-        <hr />
-        <div className="buttons flex flex-wrap items-center justify-start gap-3 mt-3">
+        <hr className="my-3"/>
+        <div className="buttons flex flex-wrap items-center justify-start gap-3 py-2">
           {props.codesrc &&
             <a href={props.codesrc} target="_blank" className="p-3 border-2 border-gray-600 text-gray-600 dark:border-gray-200 dark:text-gray-200 rounded-lg">View Code</a>
           }
