@@ -22,12 +22,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.variable } py-10 flex items-center justify-center`}>
+      <body className={`${poppins.variable } pt-10 flex items-center justify-center`}>
         <Providers>
           <div className="absolute top-5 right-5">
             <ThemeSwitcher />
           </div>
-          <div className="flex min-h-screen flex-col items-center justify-start font-poppins max-w-5xl">
+          <div className="flex flex-col items-center justify-start font-poppins max-w-5xl">
             <h1 className="font-bold text-3xl md:text-3xl p-2">Gopalakrishnan</h1>
             <h3 className="text-lg text-gray-500">Web Developer & Bug Bounty Hunter</h3>
             <div className="social flex justify-center align-middle mt-3">
