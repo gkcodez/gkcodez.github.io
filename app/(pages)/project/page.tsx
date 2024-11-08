@@ -19,14 +19,14 @@ export default function Project() {
       tags="Next.js, Typescript, Tailwind CSS"
       thumbnailsrc="https://cdn.pixabay.com/photo/2018/04/22/22/57/hacker-3342696_1280.jpg"
       codesrc="https://github.com/gkcodez/bug-bounty-reports-hackerone"
-      demosrc="https:gopalakrishnan.vercel.app"
+      demosrc="https://gopalakrishnan.vercel.app"
     />
             <ProjectCard title="Autobot"
       description="Web application with most used web elements for UI test automation practice."
       tags="React.js, Tailwind CSS"
       thumbnailsrc="https://cdn.pixabay.com/photo/2018/04/22/22/57/hacker-3342696_1280.jpg"
       codesrc="https://github.com/gkcodez/autobot"
-      demosrc="https:auto-bot-demo.vercel.app"
+      demosrc="https://auto-bot-demo.vercel.app"
     />
             <ProjectCard title="Pomodoro"
       description="Pomodoro application for productivity."
