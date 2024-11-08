@@ -23,9 +23,9 @@ export default function ProjectCard(props: any) {
           tags &&
           <div className="flex flex-wrap gap-2 my-2">
             {
-              tags.map((tag: any) => {
+              tags.map((tag: any, index: number) => {
                 return (
-                  <p className="p-2 bg-gray-300 rounded-full text-sm">{tag}</p>
+                  <p key={index} className="p-2 bg-gray-300 rounded-full text-sm">{tag}</p>
                 )
               })
             }
