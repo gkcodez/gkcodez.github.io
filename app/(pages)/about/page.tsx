@@ -13,7 +13,7 @@ export default function About() {
             <div className="mt-2 w-full text-wrap font-light flex flex-col gap-3">
                 <h3 className="flex start gap-3 w-full text-5xl text-center font-medium items-center"><PiHandWavingFill className="text-7xl"/>Hey!</h3>
                 <p>I&apos;m <span className="font-medium">Gopalakrishnan (@gkcodez)</span>, Software engineer with a decade of experience in testing and developing enterprise applications.
-                Feel free to reach out to me on the social buttons above 👆</p></div>
+                To know more or collaborate, feel free to reach out using the social buttons above 👆</p></div>
         </div>
 
         <h3 className=" text-2xl p-5 font-bold">More about me:</h3>
